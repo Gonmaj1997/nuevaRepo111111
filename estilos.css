@@ -1,0 +1,38 @@
+@media (max-width:768px)
+
+{
+    header label 
+    {
+        display: block;
+
+    }
+
+    .menu
+    {
+        position: absolute;
+        background:lightblue;
+        width: 50%;
+        margin-left: -70%;
+    } 
+    
+    .menu ul
+    {
+        flex-direction: column;
+        list-style: none;
+        display: flex;
+
+    }
+
+    .menu li 
+    {
+        border-top: 1px solid white;
+
+    }
+
+    #botonmenu:checked ~ .menu
+    {
+        margin:0;
+
+
+    }
+}

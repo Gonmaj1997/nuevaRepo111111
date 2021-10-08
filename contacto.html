@@ -15,9 +15,10 @@
     
     <header>
         
-        <img src="" alt="Logo">
+        <input type="checkbox" id="botonmenu">
+        <label for="botonmenu"><img src="Fotos/hamburgermenu_estetete.png" alt=""></label> 
     
-        <nav>
+        <nav class="menu">
             <ul>
                 <a href="index.html"><li>HOME</a></li>
                 <a href="reserva.html"><li>RESERVA</a></li>
@@ -31,16 +32,16 @@
 
     <main id="maincontacto">
 
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
+        <form action="">
+            <h2>Contacto</h2>
 
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+            <input type="text" name="Nombre" placeholder="Nombre"  >
+            <input type="text" name="Correo" placeholder="Correo">
+            <input type="text" name="Telefono" placeholder="">
+            <textarea name="Mensaje" placeholder="Escriba su comentario aqui"></textarea>
+            <input type="submit" value="Enviar">
 
+        </form>
 
 
 
